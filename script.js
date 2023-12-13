@@ -20,7 +20,7 @@ generateButton.addEventListener("click", generateQuote);
 
 function generateQuote() {
 
-  let randomNumber = Math.floor(Math.random() * 6);
+  let randomNumber = Math.floor(Math.random() * quoteObjArr.length);
 
   quoteContainer.innerText = quoteObjArr[randomNumber].quote;
 
