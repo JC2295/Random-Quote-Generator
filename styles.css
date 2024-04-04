@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@font-face {
+  font-family: 'REWARD PERSONAL USE';
+  src: url("REWARD\ PERSONAL\ USE.ttf");
+}
 
 * {
   box-sizing: border-box;
@@ -6,33 +10,38 @@
   padding: 0;
 }
 
-body {
+#container {
   background-image: url("forrest_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
-  font-family: 'Roboto', sans-serif;
-}
-
-#container {
-  margin: 15% auto;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
   width: 50%;
-  color: white;
-  background-color: rgba(0, 127, 255, 0.8);
+  font-family: 'REWARD PERSONAL USE';
+  color: black;
+  background-color: #ecd3b2;
+  border: ridge saddlebrown 0.5rem;
   border-radius: 1rem;
-  gap: 4rem;
   padding: 1rem;
 }
 
 #generate {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'REWARD PERSONAL USE';
   font-size: 1.5rem;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
+  background: linear-gradient(47deg, rgba(192,192,192,1) 41%, rgba(255,255,255,1) 100%);
 }
 
-#quote {
-  height: 3rem;
-}

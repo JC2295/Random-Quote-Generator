@@ -16,6 +16,8 @@ let nameContainer = document.querySelector("#name");
 
 quoteContainer.innerText = quoteObjArr[0]["quote"];
 
+nameContainer.innerText = quoteObjArr[0]["name"];
+
 generateButton.addEventListener("click", generateQuote);
 
 function generateQuote() {
