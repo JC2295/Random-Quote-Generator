@@ -10,6 +10,10 @@
   padding: 0;
 }
 
+body{
+  min-width: 200px;
+}
+
 #container {
   background-image: url("forrest_background.jpg");
   background-repeat: no-repeat;
@@ -29,6 +33,7 @@
   text-align: center;
   gap: 2rem;
   width: 50%;
+  min-width: 200px;
   font-family: 'REWARD PERSONAL USE';
   color: black;
   background-color: #ecd3b2;
