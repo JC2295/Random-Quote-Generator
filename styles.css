@@ -39,7 +39,8 @@ body{
   border: ridge saddlebrown 0.5rem;
   border-radius: 1rem;
   padding: 1rem;
-  min-height: 50vh;
+  height: 50vh;
+  min-height: 500px;
 }
 
 #quote-container{
