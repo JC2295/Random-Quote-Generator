@@ -30,9 +30,9 @@ body{
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  width: 50%;
-  min-width: 200px;
-  max-width: 100%;
+  min-width: 320px;
+  width: 75%;
+  max-width: 800px;
   font-family: 'REWARD PERSONAL USE';
   color: black;
   background-color: #ecd3b2;
